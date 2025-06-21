@@ -1,0 +1,47 @@
+{
+      "intents": [
+        {
+          "tag": "greeting",
+          "patterns": ["Hello", "Hi", "Hey", "Good day", "Hi there"],
+          "responses": ["Hello! How are you feeling today?", "Hi there, how can I support you today?", "Good to see you! What’s on your mind?"],
+          "context": [""]
+        },
+        {
+          "tag": "goodbye",
+          "patterns": ["Goodbye", "See you later", "Bye", "Take care", "Catch you later"],
+          "responses": ["Take care! Remember, I'm always here if you need to talk.", "Goodbye! Stay positive and reach out anytime.", "Bye! Come back if you need support."],
+          "context": [""]
+        },
+        {
+          "tag": "thanks",
+          "patterns": ["Thank you", "Thanks", "I appreciate it", "That helps a lot", "Thanks for your support"],
+          "responses": ["You're welcome! Happy to help.", "My pleasure. Remember, you're not alone.", "No problem. Always here for you."],
+          "context": [""]
+        },
+        {
+          "tag": "self_care",
+          "patterns": ["How can I take care of myself?", "What are some self-care tips?", "I need self-care advice", "Help me with self-care"],
+          "responses": ["Self-care is crucial! You can try activities like meditation, journaling, exercising, or simply taking some time to relax.", "Taking care of yourself involves both physical and mental activities. Consider practicing mindfulness, eating healthily, and getting enough sleep.", "Remember, self-care isn't selfish. Taking time for yourself helps you stay balanced and happy."],
+          "context": [""]
+        },
+        {
+          "tag": "stress_relief",
+          "patterns": ["How can I relieve stress?", "I feel stressed out", "Tips for reducing stress", "Help me manage stress"],
+          "responses": ["Stress management techniques include deep breathing exercises, going for a walk, listening to calming music, and talking to someone you trust.", "Consider trying progressive muscle relaxation, yoga, or simply spending time in nature to reduce stress.", "It's important to identify your stress triggers and find healthy ways to cope with them, such as talking it out or practicing a hobby you enjoy."],
+          "context": [""]
+        },
+        {
+          "tag": "anxiety",
+          "patterns": ["I'm feeling anxious", "How do I deal with anxiety?", "Help with anxiety", "I'm struggling with anxiety"],
+          "responses": ["It's okay to feel anxious sometimes. Try grounding exercises, like focusing on your breathing or counting things around you.", "Dealing with anxiety involves finding coping strategies that work for you, such as mindfulness meditation or talking to a mental health professional.", "Remember, you're not alone in this. Reaching out for help and talking about your feelings can make a big difference."],
+          "context": [""]
+        },
+        {
+          "tag": "depression",
+          "patterns": ["I'm feeling down", "How do I deal with depression?", "Help with depression", "I'm struggling with depression"],
+          "responses": ["Feeling down can be really tough. It's important to talk to someone you trust about how you're feeling.", "Dealing with depression involves finding support, whether it's through friends, family, or a mental health professional.", "You're not alone in this. There are resources available to help you, and taking small steps to engage in activities you enjoy can help."],
+          "context": [""]
+        }
+      ]
+    }
+    
