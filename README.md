@@ -1,106 +1,85 @@
-Mental Health Chatbot
+# Mental Health Chatbot
 
-This is a Python-based Mental Health Chatbot that interacts with users through text and provides supportive, empathetic responses.
-The chatbot uses Natural Language Processing (NLP) and a trained deep learning model to understand user intent and reply appropriately.
+A Python-based chatbot that uses Natural Language Processing (NLP) and a deep learning model to provide supportive and empathetic responses for mental health related conversations.
 
-This project was built to learn and apply NLP concepts in a practical, real-world scenario.
+---
 
-About the Project
+## Features
 
-Mental health is an important topic, and even small supportive conversations can help users feel better.
-This chatbot is designed for basic guidance and conversation, not as a replacement for professional mental health services.
+- Text-based chatbot interaction  
+- Intent classification using NLP  
+- Trained TensorFlow deep learning model  
+- Easy to extend by adding new intents  
+- Simple and clean project structure  
 
-Through this project, I learned how to:
+---
 
-Process and clean text data
+## Technologies Used
 
-Train a neural network for intent classification
+- Python  
+- TensorFlow / Keras  
+- NLTK  
+- NumPy  
+- JSON  
 
-Structure a complete Python ML project
+---
 
-Work with NLP libraries like NLTK
+## Project Structure
 
-Features
-
-Text-based chatbot interaction
-
-Intent classification using NLP
-
-Deep learning model trained with TensorFlow
-
-Simple and extendable intent–response system
-
-Beginner-friendly and well-structured code
-
-Technologies Used
-
-Python
-
-TensorFlow / Keras
-
-NLTK
-
-NumPy
-
-JSON
-
-Project Structure
 Mental-Health-Chatbot/
-│
-├── chatbot.py        # Script to run the chatbot
-├── train.py          # Script to train the model
-├── intents.json      # Intents and responses dataset
-├── chatbot_model.h5  # Trained neural network model
-├── words.pkl         # Processed vocabulary data
-├── classes.pkl       # Intent labels
-└── README.md
+├── chatbot.py        # Run the chatbot  
+├── train.py          # Train the model  
+├── intents.json      # Intents and responses  
+├── chatbot_model.h5  # Trained model  
+├── words.pkl         # Vocabulary data  
+├── classes.pkl       # Intent labels  
+└── README.md  
 
-How It Works
+---
 
-The user enters a message
+## How It Works
 
-The text is preprocessed (tokenization, stemming, normalization)
+1. User enters a message  
+2. Text preprocessing is applied (tokenization, stemming)  
+3. Model predicts the user intent  
+4. Response is selected based on intent  
+5. Chatbot replies to the user  
 
-The trained model predicts the intent
+---
 
-A matching response is selected from the dataset
+## Installation
 
-The chatbot replies to the user
-
-How to Run the Project
-Step 1: Clone the repository
+```bash
 git clone https://github.com/DAKSHSAKLECHA/Mental-Health-Chatbot.git
 cd Mental-Health-Chatbot
-
-Step 2: Install required libraries
 pip install tensorflow nltk numpy
+````
 
-Step 3: Train the model (optional)
+---
+
+## Usage
+
+```bash
 python train.py
-
-Step 4: Run the chatbot
 python chatbot.py
+```
 
-Example Conversation
-User: I am feeling anxious today
-Bot: I'm sorry you're feeling this way. Do you want to share what's been bothering you?
+---
 
-Future Enhancements
+## Example
 
-Add more intents and training data
+```
+User: I feel stressed
+Bot: I'm sorry you're feeling this way. Do you want to talk about it?
+```
 
-Improve response accuracy
+---
 
-Build a web interface using Flask
+## Disclaimer
 
-Add voice input/output support
+This chatbot is built for learning purposes only and does not provide medical or professional mental health advice.
 
-Deploy the chatbot online
-
-Disclaimer
-
-This project is created for educational purposes only.
-It does not provide medical advice or professional mental health treatment.
+---
 
 Author
 
@@ -109,3 +88,4 @@ Daksh Saklecha
 GitHub: https://github.com/DAKSHSAKLECHA
 
 LinkedIn: https://www.linkedin.com/in/dakshsaklecha/
+
